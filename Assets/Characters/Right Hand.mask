@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Right Hand
+  m_Mask: 00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Hips
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Neck
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Neck/Head
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L/Upper_Arm_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L/Upper_Arm_L/Lower_Arm_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L/Upper_Arm_L/Lower_Arm_L/Hand_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L/Upper_Arm_L/Lower_Arm_L/Hand_L/Fingers01_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L/Upper_Arm_L/Lower_Arm_L/Hand_L/Fingers01_L/Fingers02_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L/Upper_Arm_L/Lower_Arm_L/Hand_L/Hand_Hold_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L/Upper_Arm_L/Lower_Arm_L/Hand_L/Thumb01_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_L/Upper_Arm_L/Lower_Arm_L/Hand_L/Thumb01_L/Thumb02_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R/Upper_Arm_R
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R/Upper_Arm_R/Lower_Arm_R
+    m_Weight: 0
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R/Upper_Arm_R/Lower_Arm_R/Hand_R
+    m_Weight: 1
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R/Upper_Arm_R/Lower_Arm_R/Hand_R/Fingers01_R
+    m_Weight: 1
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R/Upper_Arm_R/Lower_Arm_R/Hand_R/Fingers01_R/Fingers02_R
+    m_Weight: 1
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R/Upper_Arm_R/Lower_Arm_R/Hand_R/Hand_Hold_R
+    m_Weight: 1
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R/Upper_Arm_R/Lower_Arm_R/Hand_R/Thumb01_R
+    m_Weight: 1
+  - m_Path: Armature/Hips/Spine/Chest/Shoulder_R/Upper_Arm_R/Lower_Arm_R/Hand_R/Thumb01_R/Thumb02_R
+    m_Weight: 1
+  - m_Path: Armature/Hips/Upper_Leg_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Upper_Leg_L/Lower_Leg_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Upper_Leg_L/Lower_Leg_L/Foot_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Upper_Leg_L/Lower_Leg_L/Foot_L/Toes_L
+    m_Weight: 0
+  - m_Path: Armature/Hips/Upper_Leg_R
+    m_Weight: 0
+  - m_Path: Armature/Hips/Upper_Leg_R/Lower_Leg_R
+    m_Weight: 0
+  - m_Path: Armature/Hips/Upper_Leg_R/Lower_Leg_R/Foot_R
+    m_Weight: 0
+  - m_Path: Armature/Hips/Upper_Leg_R/Lower_Leg_R/Foot_R/Toes_R
+    m_Weight: 0
+  - m_Path: Body
+    m_Weight: 0
+  - m_Path: Hair
+    m_Weight: 0
+  - m_Path: Helmet
+    m_Weight: 0
+  - m_Path: Pants
+    m_Weight: 0
+  - m_Path: Platebody
+    m_Weight: 0
+  - m_Path: Platelegs
+    m_Weight: 0
+  - m_Path: Shield
+    m_Weight: 0
+  - m_Path: Shirt
+    m_Weight: 0
+  - m_Path: Shoes
+    m_Weight: 0
+  - m_Path: Sword
+    m_Weight: 0

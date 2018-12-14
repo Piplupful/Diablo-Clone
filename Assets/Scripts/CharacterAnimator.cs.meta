@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ea7427f62c4b4a7498dd63b64f5c49c2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - replaceableAttackAnim: {fileID: 7400014, guid: 73be9633513854604baae3aa06041436,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

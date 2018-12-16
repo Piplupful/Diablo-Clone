@@ -1,0 +1,11 @@
+Controls
+-------------------------------------
+Left Click 		= 	Move to
+Right Click 	= 	Interact with
+S/D & <-/-> 	= 	Camera Rotation
+Scroll Wheel 	= 	Camera Zoom
+I 				= 	Inventory
+U 				= 	Unequip all
+-------------------------------------
+
+Note to Devs: Keep this updated until you have a proper tutorial section.

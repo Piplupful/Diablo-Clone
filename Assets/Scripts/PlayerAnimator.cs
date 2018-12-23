@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerAnimator : CharacterAnimator {
 
+    const float smoothTime = .1f;
+
     public WeaponAnimations[] weaponAnimations;
     Dictionary<Equipment, AnimationClip[]> weaponAnimationsDict;
-
+    
     protected override void Start()
     {
         base.Start();
@@ -48,7 +51,7 @@ public class PlayerAnimator : CharacterAnimator {
         }
     }
     
-     [System.Serializable]
+    [System.Serializable]
     public struct WeaponAnimations
     {
         public Equipment weapon;

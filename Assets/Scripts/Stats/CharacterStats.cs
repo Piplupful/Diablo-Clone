@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour {
 
+    // Stats
     public int maxHealth = 100;
     public int currentHealth { get; private set; }
 
     public Stat Damage;
+    public Stat AttackSpeed;
+    public Stat CritChance;
+    public Stat FireDamage;         // Elemental damage can be changed if design changes
+    public Stat ColdDamage;         // Accuracy or nah?
+    public Stat LightningDamage;
     public Stat Armor;
+
 
     public event System.Action<int, int> OnHealthChanged;
 
@@ -19,16 +26,32 @@ public class CharacterStats : MonoBehaviour {
 
     void Update()
     {
+        // Test damage button (t), works on all characters in scene
+
+        /*
         if (Input.GetKeyDown(KeyCode.T))
         {
             TakeDamage(10);
         }
+        */
     }
 
-    public void TakeDamage (int damage)
+    public void TakeDamage(int damage)
     {
+        // DAMAGE CALCULATION
+
+        float critRNG = Random.Range(0, 100);
+        // Debug.Log("CRIT # = " + critRNG);
+
         damage -= Armor.getValue();
-        damage = Mathf.Clamp(damage, 0, int.MaxValue);
+        damage = Mathf.Clamp(damage, 1, int.MaxValue);  // 1 damage is the lowest possible
+
+        if (critRNG <= CritChance.getValue())
+        {
+            damage = damage * 2;
+        }
+
+        // TAKE DAMAGE
 
         currentHealth -= damage;
         Debug.Log(transform.name + " takes " + damage + " damage.");

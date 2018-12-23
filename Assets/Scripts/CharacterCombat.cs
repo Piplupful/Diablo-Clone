@@ -22,6 +22,17 @@ public class CharacterCombat : MonoBehaviour {
     void Start()
     {
         myStats = GetComponent<CharacterStats>();
+
+        if (this.CompareTag("Player"))
+        {
+            attackSpeed = this.GetComponent<PlayerStats>().AttackSpeed.getValue();
+
+            // !!! Debug, remove later !!!!
+            if (attackSpeed == this.GetComponent<PlayerStats>().AttackSpeed.getValue())
+            {
+                Debug.Log("Successful player AttackSpeed setting.");
+            }
+        }
     }
 
     void Update()

@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 347931182}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1027,6 +1027,16 @@ MonoBehaviour:
   maxHealth: 100
   Damage:
     baseValue: 5
+  AttackSpeed:
+    baseValue: 1
+  CritChance:
+    baseValue: 50
+  FireDamage:
+    baseValue: 0
+  ColdDamage:
+    baseValue: 0
+  LightningDamage:
+    baseValue: 0
   Armor:
     baseValue: 0
 --- !u!114 &347931181
@@ -1545,6 +1555,16 @@ MonoBehaviour:
   maxHealth: 50
   Damage:
     baseValue: 5
+  AttackSpeed:
+    baseValue: 0
+  CritChance:
+    baseValue: 0
+  FireDamage:
+    baseValue: 0
+  ColdDamage:
+    baseValue: 0
+  LightningDamage:
+    baseValue: 0
   Armor:
     baseValue: 3
 --- !u!114 &524081921
@@ -6488,6 +6508,16 @@ MonoBehaviour:
   maxHealth: 50
   Damage:
     baseValue: 5
+  AttackSpeed:
+    baseValue: 0
+  CritChance:
+    baseValue: 0
+  FireDamage:
+    baseValue: 0
+  ColdDamage:
+    baseValue: 0
+  LightningDamage:
+    baseValue: 0
   Armor:
     baseValue: 3
 --- !u!114 &2143173792
